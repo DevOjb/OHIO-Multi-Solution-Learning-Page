@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Ohio Multi-Solution's services and training courses — from graphic design and IT support to AI, digital marketing, and kids coding in Jos, Nigeria.">
+    <title>Skills &amp; Services | Ohio Multi-Solution</title>
+    <link rel="icon" href="ohio.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ── HEADER ── -->
+    <header>
+        <nav>
+            <a class="brand" href="index.html">
+                <img src="ohio.png" alt="Ohio Multi-Solution logo">
+                <span>OHIO MULTI-SOLUTION</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html" class="active">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ── MAIN ── -->
+    <main>
+        <div class="container">
+
+            <!-- Page Hero -->
+            <div class="page-hero">
+                <span class="eyebrow eyebrow-blue">What We Offer</span>
+                <h1>Skills, Services &amp; Courses</h1>
+                <p>From business branding to hands-on digital training — everything you need to grow, learn, and thrive in the digital age.</p>
+            </div>
+
+            <!-- ── SECTION 1: Services ── -->
+            <section style="margin-bottom: 5rem;">
+                <div class="section-header">
+                    <span class="eyebrow eyebrow-blue">Services</span>
+                    <h2>What We Do For You</h2>
+                    <p>We deliver practical, results-driven solutions tailored to businesses and individuals across Nigeria.</p>
+                </div>
+
+                <div class="services-grid">
+
+                    <div class="service-card">
+                        <div class="service-icon">&#127981;</div>
+                        <div class="service-body">
+                            <h3>Company Branding</h3>
+                            <p>Logo design, brand identity, business cards, and full visual branding packages that make your business memorable.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">&#128187;</div>
+                        <div class="service-body">
+                            <h3>IT Solutions</h3>
+                            <p>Network setup, software installation, system configuration, and ongoing technical support for businesses of any size.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">&#127912;</div>
+                        <div class="service-body">
+                            <h3>Graphic Design</h3>
+                            <p>Flyers, banners, social media graphics, and marketing materials crafted to capture attention and communicate your message.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">&#128104;&#8205;&#127979;</div>
+                        <div class="service-body">
+                            <h3>Computer Training</h3>
+                            <p>Structured training programs for beginners, students, professionals, and kids aged 10–16 looking to build real digital skills.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">&#128161;</div>
+                        <div class="service-body">
+                            <h3>Innovation &amp; Digital Skills</h3>
+                            <p>Future-focused programs covering AI, digital literacy, and emerging technologies to prepare you for tomorrow's job market.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">&#128200;</div>
+                        <div class="service-body">
+                            <h3>Business &amp; IT Consulting</h3>
+                            <p>Strategic advice and implementation support to help your business adopt the right tools, systems, and processes.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">&#128295;</div>
+                        <div class="service-body">
+                            <h3>Computer Maintenance &amp; Installation</h3>
+                            <p>Hardware repair, OS installation, virus removal, and preventive maintenance to keep your systems running smoothly.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ── SECTION 2: Courses ── -->
+            <section id="courses" style="margin-bottom: 5rem;">
+                <div class="section-header">
+                    <span class="eyebrow eyebrow-purple">Enroll Now</span>
+                    <h2>Innovation &amp; Training Courses</h2>
+                    <p>Select a course below, choose your preferred mode, and submit your enrollment. Our team will follow up within 24 hours.</p>
+                </div>
+
+                <div class="courses-grid">
+
+                    <div class="course-card" data-course="Introduction to Computer">
+                        <div class="course-header">
+                            <span class="course-level level-beginner">Beginner</span>
+                            <span class="course-duration">&#128337; 4 Weeks</span>
+                        </div>
+                        <h3>Introduction to Computer</h3>
+                        <p>Learn the fundamentals — hardware, software, the desktop environment, file management, and safe internet browsing.</p>
+                        <div class="course-footer">
+                            <span class="course-price">&#8358;25,000</span>
+                            <button class="btn-enroll" onclick="openEnroll('Introduction to Computer', '&#8358;25,000')">Enroll &#8594;</button>
+                        </div>
+                    </div>
+
+                    <div class="course-card" data-course="Basic Computer Skills">
+                        <div class="course-header">
+                            <span class="course-level level-beginner">Beginner</span>
+                            <span class="course-duration">&#128337; 4 Weeks</span>
+                        </div>
+                        <h3>Basic Computer Skills</h3>
+                        <p>Typing, file handling, email setup, and browser tools — the core skills every digital professional needs.</p>
+                        <div class="course-footer">
+                            <span class="course-price">&#8358;35,000</span>
+                            <button class="btn-enroll" onclick="openEnroll('Basic Computer Skills', '&#8358;35,000')">Enroll &#8594;</button>
+                        </div>
+                    </div>
+
+                    <div class="course-card" data-course="Office Suite">
+                        <div class="course-header">
+                            <span class="course-level level-intermediate">Intermediate</span>
+                            <span class="course-duration">&#128337; 6 Weeks</span>
+                        </div>
+                        <h3>Office Suite</h3>
+                        <p>Master Microsoft Word, Excel, and PowerPoint — from formatting documents to building spreadsheets and delivering presentations.</p>
+                        <div class="course-footer">
+                            <span class="course-price">&#8358;45,000</span>
+                            <button class="btn-enroll" onclick="openEnroll('Office Suite (Word, Excel, PowerPoint)', '&#8358;45,000')">Enroll &#8594;</button>
+                        </div>
+                    </div>
+
+                    <div class="course-card" data-course="Operating Systems">
+                        <div class="course-header">
+                            <span class="course-level level-intermediate">Intermediate</span>
+                            <span class="course-duration">&#128337; 3 Weeks</span>
+                        </div>
+                        <h3>Operating Systems</h3>
+                        <p>Understand Windows in depth — system settings, user management, troubleshooting, and performance optimisation.</p>
+                        <div class="course-footer">
+                            <span class="course-price">&#8358;30,000</span>
+                            <button class="btn-enroll" onclick="openEnroll('Operating Systems', '&#8358;30,000')">Enroll &#8594;</button>
+                        </div>
+                    </div>
+
+                    <div class="course-card featured" data-course="Artificial Intelligence">
+                        <div class="course-header">
+                            <span class="course-level level-advanced">Advanced</span>
+                            <span class="course-duration">&#128337; 8 Weeks</span>
+                        </div>
+                        <div class="course-badge">&#128293; Most Popular</div>
+                        <h3>Artificial Intelligence</h3>
+                        <p>Explore how AI works, how to use AI tools in real work, and where AI is taking the future — no coding required to get started.</p>
+                        <div class="course-footer">
+                            <span class="course-price">&#8358;40,000</span>
+                            <button class="btn-enroll" onclick="openEnroll('Artificial Intelligence', '&#8358;40,000')">Enroll &#8594;</button>
+                        </div>
+                    </div>
+
+                    <div class="course-card" data-course="Digital Marketing">
+                        <div class="course-header">
+                            <span class="course-level level-intermediate">Intermediate</span>
+                            <span class="course-duration">&#128337; 5 Weeks</span>
+                        </div>
+                        <h3>Digital Marketing</h3>
+                        <p>Social media strategy, content creation, SEO basics, and online advertising — grow any business or brand online.</p>
+                        <div class="course-footer">
+                            <span class="course-price">&#8358;50,000</span>
+                            <button class="btn-enroll" onclick="openEnroll('Digital Marketing', '&#8358;50,000')">Enroll &#8594;</button>
+                        </div>
+                    </div>
+
+                    <div class="course-card" data-course="Graphics Design &amp; Multimedia">
+                        <div class="course-header">
+                            <span class="course-level level-intermediate">Intermediate</span>
+                            <span class="course-duration">&#128337; 6 Weeks</span>
+                        </div>
+                        <h3>Graphic Design &amp; Multimedia</h3>
+                        <p>Design logos, flyers, and social content using industry tools. Build a portfolio you can use to start freelancing immediately.</p>
+                        <div class="course-footer">
+                            <span class="course-price">&#8358;80,000</span>
+                            <button class="btn-enroll" onclick="openEnroll('Graphic Design &amp; Multimedia', '&#8358;80,000')">Enroll &#8594;</button>
+                        </div>
+                    </div>
+
+                    <div class="course-card" data-course="Kids Coding / Animation">
+                        <div class="course-header">
+                            <span class="course-level level-intermediate">Intermediate</span>
+                            <span class="course-duration">&#128337; 4 Weeks</span>
+                        </div>
+                        <div class="course-badge kids">&#127775; Kids (Ages 10–16)</div>
+                        <h3>Kids Coding / Animation</h3>
+                        <p>Introduce children to programming logic and creative animation — building games, stories, and moving graphics in a fun, guided environment.</p>
+                        <div class="course-footer">
+                            <span class="course-price">&#8358;35,000</span>
+                            <button class="btn-enroll" onclick="openEnroll('Kids Coding / Animation', '&#8358;35,000')">Enroll &#8594;</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ── SECTION 3: Training Highlights ── -->
+            <section>
+                <div class="section-header centered">
+                    <span class="eyebrow eyebrow-gold">Why Choose Us</span>
+                    <h2>Training Highlights</h2>
+                </div>
+
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <div class="icon">&#128198;</div>
+                        <strong>Daily Classes</strong>
+                        <span>Live online sessions every weekday</span>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon">&#127979;</div>
+                        <strong>Physical Classes</strong>
+                        <span>3 days a week, hands-on in Jos</span>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon">&#128218;</div>
+                        <strong>Learning Materials</strong>
+                        <span>Handouts &amp; resources provided</span>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon">&#127942;</div>
+                        <strong>Certification</strong>
+                        <span>Certificate of completion issued</span>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon">&#129310;</div>
+                        <strong>Post-Training Support</strong>
+                        <span>We stay with you after graduation</span>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ── ENROLLMENT MODAL ── -->
+    <div class="modal-overlay" id="enrollModal" onclick="closeOnOverlay(event)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeEnroll()" aria-label="Close modal">&#10005;</button>
+            <h2>Course Enrollment</h2>
+            <p class="modal-sub">You are enrolling in: <strong id="selectedCourse">—</strong></p>
+            <p class="modal-price">Course fee: <span id="selectedPrice">—</span></p>
+
+            <form class="enroll-form" onsubmit="submitEnroll(event)">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="enroll-name">Full Name</label>
+                        <input type="text" id="enroll-name" placeholder="e.g. Mcarthy Ojb" autocomplete="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="enroll-age">Age</label>
+                        <input type="number" id="enroll-age" placeholder="e.g. 24" min="10" max="99" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="enroll-email">Email Address</label>
+                    <input type="email" id="enroll-email" placeholder="you@example.com" autocomplete="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="enroll-phone">Phone Number</label>
+                    <input type="tel" id="enroll-phone" placeholder="+234 800 000 0000" autocomplete="tel" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="enroll-mode">Preferred Learning Mode</label>
+                    <select id="enroll-mode" required>
+                        <option value="" disabled selected>Select a mode</option>
+                        <option value="online">Online (Daily)</option>
+                        <option value="physical">Physical (3&times; per week)</option>
+                        <option value="both">Both Online &amp; Physical</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="enroll-note">Anything we should know? (optional)</label>
+                    <textarea id="enroll-note" rows="3" placeholder="e.g. I am a complete beginner, enrolling for my child..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Enrollment &#8594;</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast">&#10003; Enrollment submitted! We will contact you within 24 hours.</div>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="ohio.png" alt="Ohio Multi-Solution logo">
+                <span>OHIO MULTI-SOLUTION</span>
+            </div>
+            <ul class="social-links">
+                <li><a href="https://github.com/DevOjb" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.facebook.com/ohiomultisolution" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="https://www.youtube.com/@ohiomultisolution" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                <li><a href="https://x.com/@Bullet_proofsol" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 2025 Ohio Multi-Solution. All rights reserved. &mdash; Jos, Nigeria.</p>
+        </div>
+    </footer>
+
+    <script src="nav.js"></script>
+    <script>
+        function openEnroll(name, price) {
+            document.getElementById('selectedCourse').textContent = name;
+            document.getElementById('selectedPrice').innerHTML = price;
+            document.getElementById('enrollModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeEnroll() {
+            document.getElementById('enrollModal').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function closeOnOverlay(e) {
+            if (e.target === document.getElementById('enrollModal')) closeEnroll();
+        }
+
+        function submitEnroll(e) {
+            e.preventDefault();
+            closeEnroll();
+            const toast = document.getElementById('toast');
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 4500);
+            e.target.reset();
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closeEnroll();
+        });
+    </script>
+</body>
+</html>
