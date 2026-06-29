@@ -25,4 +25,11 @@
             hamburger.setAttribute('aria-expanded', 'false');
         }
     });
+
+    /* ── Auto-update copyright year ── */
+    const copy = document.querySelector('.footer-copy');
+    if (copy) {
+        copy.innerHTML = copy.innerHTML.replace('2025', new Date().getFullYear());
+    }
+
 })();
