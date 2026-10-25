@@ -2,3 +2,6 @@
 # Serves your custom 404 page for any unmatched URL
 
 /*    /404.html    404
+
+/skills.html  /courses.html  301
+/skills  /courses.html  301
